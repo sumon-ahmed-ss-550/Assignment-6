@@ -2,7 +2,7 @@ import React from "react";
 
 const Info = () => {
   return (
-    <section className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] py-15">
+    <section className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] py-15 mb-30">
       <div className="container grid sm:grid-cols-3 gap-6 justify-items-center">
         <div className="text-center">
           <h2 className="font-extrabold text-6xl text-white">50K+</h2>
