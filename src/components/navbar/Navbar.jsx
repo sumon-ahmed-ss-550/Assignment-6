@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="shadow-sm py-6">
       <div className="container flex justify-between items-center">
         <div className="nav-start">
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-2">
             <div onClick={() => setToggle(!toggle)}>
               {toggle ? (
                 <IoClose className="text-2xl lg:hidden cursor-pointer"></IoClose>
