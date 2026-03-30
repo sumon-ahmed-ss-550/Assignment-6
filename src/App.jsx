@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./components/banner/Banner";
+import Footer from "./components/footer/Footer";
 import Info from "./components/info/Info";
 import Navbar from "./components/navbar/Navbar";
 import Step from "./components/step/Step";
@@ -13,6 +14,7 @@ function App() {
       <Info></Info>
       <Step></Step>
       <Workflow></Workflow>
+      <Footer></Footer>
     </>
   );
 }
