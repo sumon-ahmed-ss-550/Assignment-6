@@ -19,3 +19,20 @@ body {
   margin: 0 auto;
   padding: 0 12px;
 }
+
+@media only screen and (max-width: 895px) {
+  .container-img-area {
+    flex-direction: column;
+  }
+  .content-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .highlight {
+    text-align: center;
+  }
+  .img-area {
+    margin-top: 24px;
+  }
+}
