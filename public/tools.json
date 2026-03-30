@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality blogs, articles, and marketing copy using advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ],
+    "icon": "https://i.ibb.co/Kx780Nm7/writing-2327400-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Access thousands of premium templates for social media, presentations, and ads.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["2000+ templates", "Monthly updates", "Commercial license"],
+    "icon": "https://i.ibb.co/8gHvfM2X/design-tool-2062942-1.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Download high-quality images, videos, and graphics for your projects.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["10M+ assets", "No attribution", "Commercial use"],
+    "icon": "https://i.ibb.co/b51ChHGB/camera-8775444-1.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive workflows and boost productivity with powerful tools.",
+    "price": 79,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["50+ automations", "API access", "Custom workflows"],
+    "icon": "https://i.ibb.co/C3wvmKbj/operation-11826522-1.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that stand out.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://i.ibb.co/VpwwbKzQ/portfolio-1153845-1.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Create engaging social media posts with ready-made content packs.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["5000+ assets", "Post scheduler", "Analytics dashboard"],
+    "icon": "https://i.ibb.co/TsjGkk7/social-media-2065203-1.png"
+  }
+]
