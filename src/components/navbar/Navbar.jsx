@@ -6,7 +6,7 @@ import { IoClose } from "react-icons/io5";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="shadow-sm py-6">
+    <nav className="shadow-sm py-6 sticky top-0 bg-white">
       <div className="container flex justify-between items-center">
         <div className="nav-start">
           <div className="flex items-center gap-2 lg:gap-0">

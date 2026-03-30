@@ -20,6 +20,7 @@ body {
   padding: 0 12px;
 }
 
+/* banner component */
 @media only screen and (max-width: 895px) {
   .container-img-area {
     flex-direction: column;
