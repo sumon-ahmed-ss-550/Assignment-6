@@ -16,6 +16,8 @@ const Navbar = () => {
               ) : (
                 <HiMenuAlt1 className="text-2xl lg:hidden cursor-pointer"></HiMenuAlt1>
               )}
+            </div>
+            <div>
               <ul
                 className={`duration-300 flex flex-col gap-2 lg:hidden absolute bg-[#dcdde1] ${toggle ? "left-0" : "-left-250"} w-70 p-3 rounded top-25`}
               >
