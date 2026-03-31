@@ -160,7 +160,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="divider before:bg-gray-300 after:bg-gray-300"></div>
+        <div className="divider before:bg-gray-300 after:bg-gray-300"></div>
         <div className="sm:flex justify-between items-center">
           <span className="font-normal text-base leading-6 text-[#FAFAFA]">
             © 2026 Digitools. All rights reserved.
