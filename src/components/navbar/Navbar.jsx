@@ -3,7 +3,7 @@ import { FiShoppingCart } from "react-icons/fi";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
 
-const Navbar = () => {
+const Navbar = ({ count }) => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="shadow-sm py-6 sticky top-0 bg-white z-10">
@@ -19,7 +19,7 @@ const Navbar = () => {
             </div>
             <div>
               <ul
-                className={`duration-300 flex flex-col gap-2 lg:hidden absolute bg-[#dcdde1] ${toggle ? "left-0" : "-left-250"} w-70 p-3 rounded top-25`}
+                className={`duration-300 flex flex-col gap-2 lg:hidden absolute bg-base-200 ${toggle ? "left-0" : "-left-250"} w-70 p-3 rounded-b-xl top-20.5`}
               >
                 <li>
                   <a
@@ -64,7 +64,7 @@ const Navbar = () => {
 
                 <div className="divider">OR</div>
 
-                <button className="btn btn-primary font-semibold text-base text-[#FFFFFF] bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
+                <button className="btn btn-primary rounded-full font-semibold text-base text-[#FFFFFF] bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
                   Get Started
                 </button>
               </ul>
@@ -107,12 +107,12 @@ const Navbar = () => {
           <div className="flex items-center gap-4">
             <div className="relative">
               <div className="w-4 h-4 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] absolute -top-1.5 left-5.25 flex justify-center items-center text-white text-[10px]">
-                6
+                {count.length}
               </div>
               <FiShoppingCart className="text-[#101727]  w-7 h-7"></FiShoppingCart>
             </div>
             <li>
-              <a className="font-semibold text-base text-[#101727]" href="#">
+              <a className="font-semibold text-xl text-[#101727]" href="#">
                 Login
               </a>
             </li>

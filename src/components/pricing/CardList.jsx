@@ -1,7 +1,6 @@
 import React from "react";
 
 const CardList = ({ list, info }) => {
-  console.log(list);
   return (
     <div>
       <li>

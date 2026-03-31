@@ -30,8 +30,8 @@ const PricingCard = ({ info }) => {
           </span>
         </div>
         <ul className="mt-6 flex flex-col gap-2 text-xs mb-auto">
-          {info.features.map((list) => (
-            <CardList list={list} info={info}></CardList>
+          {info.features.map((list, index) => (
+            <CardList key={index} list={list} info={info}></CardList>
           ))}
         </ul>
         <div className="mt-6">
