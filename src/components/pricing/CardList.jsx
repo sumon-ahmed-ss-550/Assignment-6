@@ -1,13 +1,13 @@
 import React from "react";
 
-const CardList = ({ list }) => {
+const CardList = ({ list, info }) => {
   console.log(list);
   return (
     <div>
       <li>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="size-4 me-2 inline-block text-success"
+          className={`size-4 me-2 inline-block ${info.planName === "Pro" && "text-white"} text-success`}
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
