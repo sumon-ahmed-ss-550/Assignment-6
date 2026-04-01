@@ -46,7 +46,11 @@ const Tool = ({ cardInformationData, count, setCount }) => {
             ))}
           </div>
         ) : (
-          <SelectedCard count={count} setCount={setCount}></SelectedCard>
+          <SelectedCard
+            count={count}
+            setCount={setCount}
+            setBtnToggle={setBtnToggle}
+          ></SelectedCard>
         )}
       </div>
     </section>

@@ -2,7 +2,7 @@ import { RefreshCw } from "lucide-react";
 import React from "react";
 import { toast } from "react-toastify";
 
-const SelectedCard = ({ count, setCount }) => {
+const SelectedCard = ({ count, setCount, setBtnToggle }) => {
   // adding total value
   let sumPrice = 0;
   for (let item of count) {
@@ -34,7 +34,18 @@ const SelectedCard = ({ count, setCount }) => {
                 No card selected yet
               </h2>
               <p className="font-bold text-base text-[#627382]">
-                Go to the product tab to select card
+                Go to the{" "}
+                <a
+                  onClick={() => setBtnToggle("available")}
+                  style={{
+                    textDecorationLine: "underline",
+                    color: "pink",
+                  }}
+                  href="#"
+                >
+                  product tab
+                </a>{" "}
+                to select card
               </p>
             </div>
           </div>
@@ -42,12 +53,13 @@ const SelectedCard = ({ count, setCount }) => {
           count.map((cardInfo, index) => (
             <div
               key={index}
-              className="bg-[#F9FAFC] rounded-2xl px-5 py-6 mb-4 flex justify-between items-center"
+              className="bg-[#F9FAFC] rounded-2xl px-5 py-6 mb-4 sm:flex justify-between items-center"
             >
-              <div className="flex items-center gap-4">
+              <div className="sm:flex items-center gap-4 mb-4 sm:mb-0">
                 <div className="border border-[#F2F2F2] w-15 h-15 flex justify-center items-center rounded-full">
                   <img className="w-8 h-8" src={cardInfo.icon} alt="" />
                 </div>
+
                 <div>
                   <h2 className="font-semibold text-xl text-[#101727] mb-2">
                     {cardInfo.name}

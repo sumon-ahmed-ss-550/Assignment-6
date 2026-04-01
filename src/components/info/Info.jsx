@@ -10,12 +10,14 @@ const Info = () => {
             Active Users
           </span>
         </div>
+
         <div className="text-center">
           <h2 className="font-extrabold text-6xl text-white">200+</h2>
           <span className="font-medium text-2xl text-white mt-3">
             Premium Tools
           </span>
         </div>
+
         <div className="text-center">
           <h2 className="font-extrabold text-6xl text-white">4.9</h2>
           <span className="font-medium text-2xl text-white mt-3">Rating</span>
