@@ -4,6 +4,7 @@ import CardList from "./CardList";
 const PricingCard = ({ info }) => {
   return (
     <div
+      id="pricingCard"
       className={`card relative ${info.planName === "Pro" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white" : "bg-base-100"} shadow-sm`}
     >
       <div className="flex justify-center items-center">
