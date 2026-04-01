@@ -1,6 +1,6 @@
 import React from "react";
-import btnImg from "../../assets/play.png";
 import bannerImg from "../../assets/banner.png";
+import { Play } from "lucide-react";
 
 const Banner = () => {
   return (
@@ -37,7 +37,7 @@ const Banner = () => {
               Explore Products
             </button>
             <button className="btn border border-[#9514FA] bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent bg-transparent btn-primary rounded-full p-4">
-              <img className="" src={btnImg} alt="" /> Watch Demo
+              <Play className="text-[#9514FA]"></Play> Watch Demo
             </button>
           </div>
         </div>
