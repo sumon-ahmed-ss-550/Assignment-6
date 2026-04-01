@@ -8,7 +8,10 @@ const Footer = () => {
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
           <div>
-            <h2 className="font-bold text-white text-4xl mb-4">DigiTools</h2>
+            <h2 className="font-bold text-white text-4xl mb-4">
+              <span className="text-[#4F39F6]">Digi</span>
+              <span className="text-[#9514FA]">Tools</span>
+            </h2>
             <p className="max-w-87.5 font-normal text-base leading-6 text-white/80">
               Premium digital tools for creators, professionals, and businesses.
               Work smarter with our suite of powerful tools.
