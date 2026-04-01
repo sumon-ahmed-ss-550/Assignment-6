@@ -51,8 +51,9 @@ const ToolCard = ({ card, count, setCount }) => {
         </ul>
         <div className="mt-6">
           <button
+            disabled={isAlreadyAdded ? true : false}
             onClick={() => handleByeBtn()}
-            className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white btn-block rounded-full"
+            className={`btn ${isAlreadyAdded ? "disabled" : "bg-linear-to-r from-[#4F39F6] to-[#9514FA]"} text-white btn-block rounded-full`}
           >
             {isClicked === true ? "Subscribed" : "Buy Now"}
           </button>

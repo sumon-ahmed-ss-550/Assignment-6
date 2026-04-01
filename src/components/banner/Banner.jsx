@@ -10,7 +10,10 @@ const Banner = () => {
           <div className="flex items-center gap-1.25 bg-[#E1E7FF] py-3 px-4 rounded-full max-w-73.5">
             <div className="w-4 h-4 bg-[#d0befe] rounded-full flex justify-center items-center">
               <div className="w-3 h-3 bg-[#b27dfc] rounded-full flex justify-center items-center">
-                <div className="w-1.5 h-1.5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full"></div>
+                <div
+                  id="indicator"
+                  className="w-1.5 h-1.5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full"
+                ></div>
               </div>
             </div>
             <div>

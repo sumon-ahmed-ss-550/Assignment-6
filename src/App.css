@@ -1,0 +1,15 @@
+#indicator {
+  animation-name: pointer;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes pointer {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

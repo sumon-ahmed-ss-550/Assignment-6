@@ -1,3 +1,4 @@
+import { RefreshCw } from "lucide-react";
 import React from "react";
 import { toast } from "react-toastify";
 
@@ -26,6 +27,9 @@ const SelectedCard = ({ count, setCount }) => {
         {count.length === 0 ? (
           <div className="flex justify-center items-center py-4">
             <div className="text-center">
+              <div className="flex justify-center items-center mb-2">
+                <RefreshCw></RefreshCw>
+              </div>
               <h2 className="font-extrabold text-2xl text-[#627382] mb-2">
                 No card selected yet
               </h2>
@@ -65,20 +69,22 @@ const SelectedCard = ({ count, setCount }) => {
           ))
         )}
       </div>
-      <div className="flex justify-between items-center mb-8">
-        <span className="font-normal text-base text-[#627382]">Total:</span>
-        <strong className="font-bold text-2xl text-[#101727]">
-          ${sumPrice}
-        </strong>
-      </div>
-      <div>
-        <button
-          disabled={count.length === 0}
-          onClick={removeAllCards}
-          className="w-full rounded-full btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white"
-        >
-          Proceed to Checkout
-        </button>
+
+      <div className={`${count.length === 0 ? "hidden" : "block"}`}>
+        <div className="flex justify-between items-center mb-8">
+          <span className="font-normal text-base text-[#627382]">Total:</span>
+          <strong className="font-bold text-2xl text-[#101727]">
+            ${sumPrice}
+          </strong>
+        </div>
+        <div>
+          <button
+            onClick={removeAllCards}
+            className="w-full rounded-full btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white"
+          >
+            Proceed to Checkout
+          </button>
+        </div>
       </div>
     </div>
   );
