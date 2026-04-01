@@ -1,5 +1,5 @@
-import { RefreshCw } from "lucide-react";
 import React from "react";
+import { FiShoppingCart } from "react-icons/fi";
 import { toast } from "react-toastify";
 
 const SelectedCard = ({ count, setCount, setBtnToggle }) => {
@@ -28,7 +28,7 @@ const SelectedCard = ({ count, setCount, setBtnToggle }) => {
           <div className="flex justify-center items-center py-4">
             <div className="text-center">
               <div className="flex justify-center items-center mb-2">
-                <RefreshCw></RefreshCw>
+                <FiShoppingCart className="text-[#101727]  w-7 h-7"></FiShoppingCart>
               </div>
               <h2 className="font-extrabold text-2xl text-[#627382] mb-2">
                 No card selected yet
