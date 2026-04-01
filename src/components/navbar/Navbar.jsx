@@ -106,7 +106,9 @@ const Navbar = ({ count }) => {
         <div className="nav-end flex items-center gap-4">
           <div className="flex items-center gap-4">
             <div className="relative">
-              <div className="w-4 h-4 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] absolute -top-1.5 left-5.25 flex justify-center items-center text-white text-[10px]">
+              <div
+                className={`${count.length === 0 && "hidden"} w-4 h-4 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] absolute -top-1.5 left-5.25 flex justify-center items-center text-white text-[10px]`}
+              >
                 {count.length}
               </div>
               <FiShoppingCart className="text-[#101727]  w-7 h-7"></FiShoppingCart>

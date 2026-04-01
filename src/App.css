@@ -16,9 +16,9 @@
 }
 
 /* pricing card styling */
-#pricingCard {
+#animatedCard {
   transition: 0.5s ease;
 }
-#pricingCard:hover {
+#animatedCard:hover {
   transform: translateY(-16px);
 }

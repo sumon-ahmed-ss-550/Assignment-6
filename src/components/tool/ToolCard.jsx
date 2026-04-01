@@ -18,7 +18,7 @@ const ToolCard = ({ card, count, setCount }) => {
   const isClicked = isAlreadyAdded || choose;
 
   return (
-    <div className="card bg-base-100 shadow-sm">
+    <div id="animatedCard" className="card bg-base-100 shadow-sm">
       <div className="card-body relative">
         <div className="text-right absolute top-1.5 right-1.5">
           <span

@@ -30,10 +30,10 @@ const SelectedCard = ({ count, setCount, setBtnToggle }) => {
               <div className="flex justify-center items-center mb-2">
                 <FiShoppingCart className="text-[#101727]  w-7 h-7"></FiShoppingCart>
               </div>
-              <h2 className="font-extrabold text-2xl text-[#627382] mb-2">
+              <h2 className="font-extrabold text-xl sm:text-2xl text-[#627382] mb-2">
                 No card selected yet
               </h2>
-              <p className="font-bold text-base text-[#627382]">
+              <p className="font-bold text-[12px] sm:text-base text-[#627382]">
                 Go to the{" "}
                 <a
                   onClick={() => setBtnToggle("available")}
